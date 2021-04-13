@@ -1,0 +1,20 @@
+{
+  "name": "mesa-desafio-algoritmos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "two": "node algorithm-2\\find-shortest-route.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludrin/mesa-desafio-algoritmos.git"
+  },
+  "author": "Ernani Ricoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludrin/mesa-desafio-algoritmos/issues"
+  },
+  "homepage": "https://github.com/Ludrin/mesa-desafio-algoritmos#readme"
+}
