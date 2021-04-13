@@ -28,9 +28,9 @@ class System {
         return initialModules;
     };
 
-    areDependenciesNotInitialized(firstModules, dependencies) {
-        const differentDependencies = firstModules.filter(dependency => !dependencies.includes(dependency));
-        return differentDependencies.length > 0;
+    areAllDependenciesInitialized(firstModules, dependencies) {
+        const differentDependencies = dependencies.filter(dependency => !firstModules.includes(dependency));
+        return differentDependencies.length === 0;
     }
 
     initializationOrder() {
@@ -42,7 +42,7 @@ class System {
                 if (!initOrder.includes(key)) {
 
                     const dependencies = this.modules[key];
-                    if (this.areDependenciesNotInitialized(initOrder, dependencies)) {
+                    if (this.areAllDependenciesInitialized(initOrder, dependencies)) {
                         initOrder.push(key);
                     }
                 }
