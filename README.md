@@ -12,6 +12,10 @@ A resolução dos problemas foi escrita em javascript básico e não usa nenhum 
 ## Testando as soluções
 O primeiro algoritmo (dependência de módulos) está na pasta algorithm-1 e o segundo (caixeiro viajante) está na pasta algorithm-2.
 
+### Problema 1 (dependência de módulos)
+Rodar o comando `npm run one`
+A resolução busca os módulos sem nenhuma dependência primeiro e, a partir destes, busca os demais.
+
 ### Problema 2 (caixeiro viajante)
 Rodar o comando `npm run two`
 A resolução do menor caminho em um grafo foi feita usando do algoritmo de Djikstra.

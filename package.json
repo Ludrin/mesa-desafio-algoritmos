@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "one": "node algorithm-1\\find-module-order.js",
     "two": "node algorithm-2\\find-shortest-route.js"
   },
   "repository": {
